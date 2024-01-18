@@ -12,4 +12,6 @@ public interface StudentService {
  public Student findById(Long id);
  public Student update(Student student, Long id);
 
+public String deleteById(Long id);
+
 }
