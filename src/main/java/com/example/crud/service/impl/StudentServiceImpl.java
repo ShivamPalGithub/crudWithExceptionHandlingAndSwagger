@@ -54,4 +54,12 @@ public class StudentServiceImpl implements StudentService {
 		return students;
 
 	}
+
+	@Override
+	public String deleteById(Long id) {
+		// TODO Auto-generated method stub
+		studentDeo.deleteById(id);
+		return "Deletion successful for ID: " + id;
+
+	}
 }
